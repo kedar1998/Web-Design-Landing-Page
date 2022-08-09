@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Web Design | Landing Page</title>
+</head>
+<body class="relative">
+    
+    <!-- BG IMAGE -->
+    
+    
+
+
+
+    <!-- NAVBAR -->
+    <section id="navbar">
+        <!-- NAVBAR CONTAINER -->
+        <nav class="container mx-auto p-4 flex items-center justify-between">
+            <!-- LOGO -->
+            <div>
+                <img src="./images/logo.svg" alt="" class="h-10 md:h-16">
+            </div>
+
+            <!-- CENTER MENU -->
+            <div class="hidden md:flex space-x-6 font-bold text-primary text-lg">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">History</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <!-- RIGHT BUTTON -->
+            <div class="hidden md:flex">
+                <button class="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-4 text-white rounded-full font-bold text-lg">Sign in</button>
+            </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden z-20">
+                <button id="menu-btn" class="hamburger">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-middle"></div>
+                    <div class="hamburger-bottom"></div>
+                </button>
+            </div>
+        </nav>
+
+        <!-- MENU -->
+        <div id="menu" class="hidden z-10  opacity-95  fixed inset-0 bg-purple-500 h-screen flex flex-col items-center space-y-5 pt-20 text-white font-bold text-xl">
+            <div class="border-b w-full text-center py-2">
+                <a href="#" class=" ">Home</a>
+            </div>
+            <div class="border-b w-full text-center py-2">
+                <a href="#" class=" ">About</a>
+            </div>
+            <div class="border-b w-full text-center py-2">
+                <a href="#" class=" ">History</a>
+            </div>
+            <div class="border-b w-full text-center py-2">
+                <a href="#" class=" ">Blog</a>
+            </div>
+            <div class="border-b w-full text-center py-2">
+                <a href="#" class=" ">Contact</a>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+    <section id="main" class="mt-10">
+        <!-- MAIN CONTAINER -->
+        <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-4">
+            <!-- CONTENT -->
+            <div class=" md:w-1/2 flex flex-col">
+                <div class=" flex flex-col items-start">
+                    <h1 class="text-3xl md:text-7xl text-primary font-bold">Web Design</h1>
+                    <p class="text-gray-500  mt-8 md:mt-16">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ab impedit ipsa ullam ipsum aspernatur incidunt unde praesentium, laborum reiciendis accusantium est mollitia fugit ut quis maiores. Dolorem, adipisci tenetur.</p>
+                    <button class="mt-10 md:mt-20 bg-gradient-to-r from-violet-500 to-fuchsia-500 px-7 py-3 text-white rounded-full font-bold text-lg">Learn More</button>
+                </div>
+            </div>
+
+            <!-- IMAGE -->
+            <div class=" md:w-1/2 ">
+                <img src="./images/intro-img.svg" alt="" class="z-30">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
